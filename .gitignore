@@ -1,0 +1,79 @@
+Skip to content
+ 
+Search or jump to¡K
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@YQLiang15 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you¡¦ll start a branch, write comments, and open a pull request.
+
+ 
+1
+0 0 YQLiang15/FlappyBird Private
+ Code  Issues 0  Pull requests 0  Projects 0  Security  Insights  Settings
+FlappyBird/.gitignore
+@YQLiang15 YQLiang15 FlappyBird¸Õ§@ Ver1.0
+6bf1963 on 31 May
+45 lines (43 sloc)  642 Bytes
+    
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+/[Bb]uilds/
+/[Ll]ibrary/
+sysinfo.txt
+*.stackdump
+/Assets/AssetStoreTools*
+*.apk
+*.unitypackage
+ 
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+*.pidb.meta
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+.consulo/
+/*.tmp
+/*.svd
+ 
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+[Tt]humbs.db
+[Dd]esktop.ini
+Corridor/Library/ShaderCache/
+Corridor/Library/metadata/
+c 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
