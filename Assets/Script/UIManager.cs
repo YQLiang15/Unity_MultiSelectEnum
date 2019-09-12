@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace BitMask
 {
-    public class TestManager : MonoBehaviour
+    public class UIManager : MonoBehaviour
     {
         [Flags]
         public enum UILayer
@@ -13,9 +13,6 @@ namespace BitMask
             Left = 1 << 2,
             Right = 1 << 3,
         }
-
-        [Button("ShowUI", "ShowUI")]
-        public int ShowUIBtn = 0;
 
         [Serializable]
         public struct UIGroup
@@ -29,8 +26,8 @@ namespace BitMask
         [SerializeField, BitMask] private UILayer selectedUI;
         [SerializeField] private UIGroup[] uiGroups;
 
-
-        private void ShowUI()
+        // Just for Demo
+        private void Update()
         {
             foreach (var ui in uiGroups)
             {
