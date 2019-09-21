@@ -2,6 +2,9 @@
 
 - Unity version : 2019.1.0f2
 
+- 使用方法 : 
+  - 在Enum前增加[BitMask]的Attribute
+
 - Inspector :
 
   ![image](https://github.com/YQLiang15/Unity_MultiSelectEnum/blob/master/MultiSelectEnum.png?raw=true)
